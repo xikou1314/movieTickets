@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\0.11.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ca63c521b5745ae9a09629d7ca67ff6bc2a967fe">
+        <dex dex="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\pre-dexed\debug\classes-cb159b6814697511e53b74ab3f4efb56ce4a9d2c.jar" />
+    </item>
+    <item
+        jar="C:\Users\hang yin\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.9.0\f824591a0016efbaeddb8300bee54832a1398cfa\okio-1.9.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\pre-dexed\debug\okio-1.9.0-316bde137a35c5ad5d7d17e28a31fd465988765c.jar" />
+    </item>
+    <item
+        jar="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\exploded-aar\com.pingxx\pingpp-wxpay\2.1.11\jars\libs\wechat-sdk-android-without-mta-1.1.7.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="367af15a73ab9eb2b595127ebc22191b19376259">
+        <dex dex="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\pre-dexed\debug\wechat-sdk-android-without-mta-1.1.7-3bed6420d0e5edc7a6e81fc79cb9fcf8407433ab.jar" />
+    </item>
+    <item
+        jar="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\exploded-aar\com.pingxx\pingpp-wxpay\2.1.11\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4c1adfac1e0a7e3c41a9ea621d7f665198eaaf04">
+        <dex dex="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\pre-dexed\debug\classes-18dad1e41231e475fb1fcd9dc2e429bd0b0741da.jar" />
+    </item>
+    <item
+        jar="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\exploded-aar\com.pingxx\pingpp-alipay\2.1.11\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1c2ef45daec994d53655f4c366b3d998a735a143">
+        <dex dex="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\pre-dexed\debug\classes-1dbe770c2cba6ca3bd34662795938dbb3738aab6.jar" />
+    </item>
+    <item
+        jar="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp3\0.11.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2b8a01ad9da5d26d0067894c22e87597bca2c500">
+        <dex dex="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\pre-dexed\debug\classes-0d41846304bd6b7b91ff8c836c4781236e7174a2.jar" />
+    </item>
+    <item
+        jar="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.37.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="731e2c3a475cd3a3cb3536d6c32e72e1ad2ed09e">
+        <dex dex="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\pre-dexed\debug\classes-d0522111ea55b8d01da0af782e4e987903a9337c.jar" />
+    </item>
+    <item
+        jar="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\pre-dexed\debug\classes-104045a6273b88bac6963486065262dfa6e2d320.jar" />
+    </item>
+    <item
+        jar="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\pre-dexed\debug\internal_impl-23.4.0-0886f06809dc0dc1bc57b7f3f5f8023147d7e705.jar" />
+    </item>
+    <item
+        jar="C:\Users\hang yin\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.4.1\c7c4f9e35c2fd5900da24f9872e3971801f08ce0\okhttp-3.4.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\pre-dexed\debug\okhttp-3.4.1-076ba53930e656e21340fd4a51bb4d8af1ae2d61.jar" />
+    </item>
+    <item
+        jar="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\0.11.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1137942adeb03984c1311b662363dd38fc238fd3">
+        <dex dex="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\pre-dexed\debug\classes-4799cda4af3f6a9223a7417180293798fe77cb3f.jar" />
+    </item>
+    <item
+        jar="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\exploded-aar\com.pingxx\pingpp-cmbwallet\2.1.11\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="9c4cc32c69624144247a3dee17732d664c8eaa63">
+        <dex dex="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\pre-dexed\debug\classes-0dc5497c45fc371a14026cfea2946d2b04e7a9f1.jar" />
+    </item>
+    <item
+        jar="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\exploded-aar\com.pingxx\pingpp-bfb-sdk\2.1.11\jars\libs\Cashier_SDK-v4.2.2.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="576d53899927bbfd70d37b7f8d06250b85aea61c">
+        <dex dex="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\pre-dexed\debug\Cashier_SDK-v4.2.2-70a1f5c470d095c43cb15d46202ae007f776d5e0.jar" />
+    </item>
+    <item
+        jar="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\exploded-aar\com.pingxx\pingpp-cmbwallet\2.1.11\jars\libs\cmbkeyboard.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="beb634b2ec37aa32956fc3e54d2a610c95b973de">
+        <dex dex="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\pre-dexed\debug\cmbkeyboard-8c5f3aeac4bf02559155d192056dfc1e404381d2.jar" />
+    </item>
+    <item
+        jar="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\exploded-aar\com.pingxx\pingpp-core\2.1.11\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2b0bfbbe0a04ddadc160f43038a125617ca25185">
+        <dex dex="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\pre-dexed\debug\classes-8d43acbc6fc0cabcb346bc7139887fef995e6137.jar" />
+    </item>
+    <item
+        jar="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.37.0\jars\libs\infer-annotations-1.5.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6682334d34f00764e6753efcd15f060a4b95cda6">
+        <dex dex="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\pre-dexed\debug\infer-annotations-1.5-922440620f2a02814521580701d6b8e7f6051298.jar" />
+    </item>
+    <item
+        jar="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\0.11.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="98786c1770b531b9194fb6448b2a2692c64074b6">
+        <dex dex="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\pre-dexed\debug\classes-57d5feffed4a17f7409cd8f1caa0bf107fa7b710.jar" />
+    </item>
+    <item
+        jar="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\exploded-aar\com.pingxx\pingpp-upacp\2.1.11\jars\libs\UPPayAssistEx.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="862f3c8eca793eb7e3616fdba3d9c0fa0a94c58b">
+        <dex dex="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\pre-dexed\debug\UPPayAssistEx-751596a43d54728f0373e9c8ef1748961621407d.jar" />
+    </item>
+    <item
+        jar="D:\adt-bundle\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\pre-dexed\debug\support-annotations-23.4.0-1bfe68099fdee275c6b4a68ffe91d2b76d742655.jar" />
+    </item>
+    <item
+        jar="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\exploded-aar\com.facebook.fresco\animated-gif\0.11.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8898a319b97e8e4e23ad4db38e25f9cd1e7554df">
+        <dex dex="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\pre-dexed\debug\classes-37825b3151fd9323d309edf23d2b1713a643a535.jar" />
+    </item>
+    <item
+        jar="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\exploded-aar\SampleAppMovies\pingpp-react-native\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="49dffecebfbb047b5efafdac514f11cdd52e2e84">
+        <dex dex="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\pre-dexed\debug\classes-bd36c974e0848dd095484ffd4871066db25c51f6.jar" />
+    </item>
+    <item
+        jar="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\pre-dexed\debug\classes-987a1d526815b19b259fd3d74e73202b8a26f632.jar" />
+    </item>
+    <item
+        jar="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\exploded-aar\com.pingxx\pingpp-upacp\2.1.11\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a8af7d377409c726139de56bb6c593e82b3207e0">
+        <dex dex="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\pre-dexed\debug\classes-b6b0fbd2f68f7500f24e0d0efa4043e0775a39bf.jar" />
+    </item>
+    <item
+        jar="C:\Users\hang yin\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\pre-dexed\debug\javax.inject-1-0e0fe69c651baeb64794225b86599157f66dcdc5.jar" />
+    </item>
+    <item
+        jar="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\0.11.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d31aadf33187c37a7cd63dc1b769f8c6e33f78c3">
+        <dex dex="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\pre-dexed\debug\classes-b907a144b5e6f0feeabc85312926c94cf37a4b99.jar" />
+    </item>
+    <item
+        jar="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\exploded-aar\com.pingxx\pingpp-alipay\2.1.11\jars\libs\alipaySingle-20170510.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b8e1e398d5f2f639780c33c3a4109b9cd2f942bd">
+        <dex dex="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\pre-dexed\debug\alipaySingle-20170510-5fecb65c839589329b61e5862467601e89e0cc08.jar" />
+    </item>
+    <item
+        jar="C:\Users\hang yin\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.2.3\1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14\jackson-core-2.2.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14">
+        <dex dex="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\pre-dexed\debug\jackson-core-2.2.3-bbf18ed8f3033a21d683236fe8d6bf88cc3a7486.jar" />
+    </item>
+    <item
+        jar="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\pre-dexed\debug\classes-a099ae2a84ed5e013d1cee81d86caa105ae46790.jar" />
+    </item>
+    <item
+        jar="C:\Users\hang yin\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.4.1\63994437f62bc861bc20c605d12962f7246116d1\okhttp-urlconnection-3.4.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="63994437f62bc861bc20c605d12962f7246116d1">
+        <dex dex="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-3.4.1-8ec4ea3b5260cb333f9839184142e8006bf35395.jar" />
+    </item>
+    <item
+        jar="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\exploded-aar\com.pingxx\pingpp-upacp\2.1.11\jars\libs\UPPayPluginExPro.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="57d49bb116603aad0db12611573fb285a216272b">
+        <dex dex="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\pre-dexed\debug\UPPayPluginExPro-5227fc8bb2e22b0f6488f9e434ef91040add4276.jar" />
+    </item>
+    <item
+        jar="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\0.11.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3341b66c54367e777a0647e2db96c045329bfeab">
+        <dex dex="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\pre-dexed\debug\classes-7c69980e3fa70d1015dc574350e3e150e468c323.jar" />
+    </item>
+    <item
+        jar="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\exploded-aar\com.facebook.soloader\soloader\0.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\pre-dexed\debug\classes-56b28c56efb7f3ea6fcc8b649a3cf6f5af3dcd9f.jar" />
+    </item>
+    <item
+        jar="C:\Users\hang yin\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\pre-dexed\debug\library-2.4.0-0de27643aeb841245fe2cb7392c3369ca72026ce.jar" />
+    </item>
+    <item
+        jar="C:\Users\hang yin\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.0\5871fb60dc68d67da54a663c3fd636a10a532948\jsr305-3.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\pre-dexed\debug\jsr305-3.0.0-2e9f4ad50ff97991e3250f62ff86a29d7c9e5599.jar" />
+    </item>
+    <item
+        jar="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\exploded-aar\SampleAppMovies\react-native-vector-icons\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="870dcd704c732691a4105529861ca5619b92f503">
+        <dex dex="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\pre-dexed\debug\classes-6dbbe8d1f88fde88de6d815f0a45664b7e38d671.jar" />
+    </item>
+    <item
+        jar="C:\Users\hang yin\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0-1eefb89d4f9d040ee6b86b45c6f16cfa13f7b9ea.jar" />
+    </item>
+    <item
+        jar="C:\Users\hang yin\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-ws\3.4.1\8ace66ef7002d98f633377c9e67daeeb196d8c3b\okhttp-ws-3.4.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
+        <dex dex="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\pre-dexed\debug\okhttp-ws-3.4.1-bfdbb04d532fffc8b67b1de67521f41ae4e0c3e6.jar" />
+    </item>
+    <item
+        jar="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\pre-dexed\debug\classes-a434e60b8d7f93f8691fee0366dd5cdb096055be.jar" />
+    </item>
+    <item
+        jar="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\exploded-aar\com.pingxx\pingpp-qpay\2.1.11\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="136c46dc293a084c5be53749241fab7f8a91050f">
+        <dex dex="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\pre-dexed\debug\classes-fdec6106ae34428693c0b46fa9fd1c5c626225fa.jar" />
+    </item>
+    <item
+        jar="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\pre-dexed\debug\classes-5ced4f63afbf5eb0d97ccaebe78fd4280a158b34.jar" />
+    </item>
+    <item
+        jar="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\exploded-aar\com.facebook.fresco\animated-base\0.11.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d945c803672a5134e333bf1eadf6fffa78609300">
+        <dex dex="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\pre-dexed\debug\classes-c3bea30e589142db8231a96b6b84112c2334c506.jar" />
+    </item>
+    <item
+        jar="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\exploded-aar\com.pingxx\pingpp-bfb-sdk\2.1.11\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="fc2e94368422acbf3519c52779c9b54b77a8ca46">
+        <dex dex="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\pre-dexed\debug\classes-4af7aed6ec2e3cd740dbda3c2ebe20c0d0546d15.jar" />
+    </item>
+    <item
+        jar="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\exploded-aar\com.pingxx\pingpp-qpay\2.1.11\jars\libs\mqqopenpay.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="78d6c29acae3ab744e29e3f03b65068056576157">
+        <dex dex="C:\Users\hang yin\Desktop\dy\phone\android\app\build\intermediates\pre-dexed\debug\mqqopenpay-7baa25d722c2f384e186027b0ef67371e1d33211.jar" />
+    </item>
+
+</items>

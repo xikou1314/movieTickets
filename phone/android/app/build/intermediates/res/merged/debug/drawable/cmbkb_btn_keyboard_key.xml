@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@drawable/cmbkb_btn_pressed" />
+    <item android:drawable="@drawable/cmbkb_btn_normal" />
+</selector><!-- From: file:/C:/Users/hang%20yin/Desktop/dy/phone/android/app/build/intermediates/exploded-aar/com.pingxx/pingpp-cmbwallet/2.1.11/res/drawable/cmbkb_btn_keyboard_key.xml -->

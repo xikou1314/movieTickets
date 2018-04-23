@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:drawable="@drawable/wallet_base_pwdpay_close_pressed" android:state_enabled="true" android:state_pressed="true"/>
+    <item android:drawable="@drawable/wallet_base_pwdpay_close_normal" android:state_enabled="true" android:state_pressed="false"/>
+    <item android:drawable="@drawable/wallet_base_pwdpay_close_normal" android:state_enabled="false" android:state_pressed="true"/>
+    <item android:drawable="@drawable/wallet_base_pwdpay_close_normal" android:state_enabled="false" android:state_pressed="false"/>
+    <item android:drawable="@drawable/wallet_base_pwdpay_close_normal"/>
+</selector>
+<!-- From: file:/C:/Users/hang%20yin/Desktop/dy/phone/android/app/build/intermediates/exploded-aar/com.pingxx/pingpp-bfb-sdk/2.1.11/res/drawable/wallet_base_pwdpay_close_selector.xml -->

@@ -1,0 +1,74 @@
+/*样式初始化*/
+body{
+	font:12px "simhei",Arial,Helvetica,sans-serif;
+	color:#fff;
+	margin:0;
+	padding:0;
+	background-color:#f5f5f5;
+}
+p,h1,h2,h3,h4,h5,h6,ul,ol,dl,dd{
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+img{
+	vertical-align:middle;
+}
+a{
+	text-decoration:none;
+}
+/*清除浮动*/
+.clear:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+/*上外边距溢出*/
+.marginOver:before{
+	content:"";
+	display:table;
+}
+
+/*公用*/
+
+.panel-arrow-red{
+	/*箭头背景图片*/
+	background: url("../files/img/icon/arrow_red.png") no-repeat 100% 50%;
+}
+.panel-arrow-blue{
+	background: url("../files/img/icon/arrow_blue.png") no-repeat 100% 50%;
+}
+.panel-arrow-orange{
+	background: url("../files/img/icon/arrow_orange.png") no-repeat 100% 50%;
+}
+.textcolor-red{
+	/*文本颜色*/
+	color: #FD7E02!important;
+}
+.textcolor-orange{
+	/*文本颜色*/
+	color: #ffb400!important;
+}
+.textcolor-blue{
+	/*文本颜色*/
+	color: #2d98f3!important;
+}
+.imax2d{
+	/*宽度 高度 背景图片*/
+	width: 69px;
+	height: 25px;
+	background-image: url("../files/img/icon/2dimax.png");
+}
+.imax3d{
+	/*宽度 高度 背景图片*/
+	width: 69px;
+	height: 25px;
+	background-image: url("../files/img/icon/3dimax.png");
+}
+.i3d{
+	/*宽度 高度 背景图片*/
+	width: 31px;
+	height: 25px;
+	background-image: url("../files/img/icon/3d.png");
+}
+

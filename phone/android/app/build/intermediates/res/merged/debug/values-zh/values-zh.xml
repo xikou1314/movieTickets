@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/hang%20yin/Desktop/dy/phone/android/app/build/intermediates/exploded-aar/com.pingxx/pingpp-cmbwallet/2.1.11/res/values-zh/values-zh.xml -->
+    <eat-comment/>
+    <string name="cmbkb_back">返回</string>
+    <string name="cmbkb_caption">招商银行安全输入</string>
+    <string name="cmbkb_finish">完成</string>
+    <string name="cmbkb_more">更多</string>
+    <string name="cmbkb_please_input">请输入</string>
+    <string name="cmbkb_safe_input">安全输入</string>
+</resources>

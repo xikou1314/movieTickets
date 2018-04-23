@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/hang%20yin/Desktop/dy/phone/android/app/build/intermediates/exploded-aar/com.pingxx/pingpp-bfb-sdk/2.1.11/res/values-sw320dp-v13/values-sw320dp-v13.xml -->
+    <eat-comment/>
+    <dimen name="bd_wallet_contact_name_width">100dp</dimen>
+</resources>

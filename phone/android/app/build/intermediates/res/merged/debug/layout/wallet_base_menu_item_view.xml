@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:gravity="center"
+    android:layout_height="wrap_content"
+    android:textColor="@android:color/white"
+    android:background="@drawable/wallet_base_menu_item_bg"
+    android:drawablePadding="5dp"
+    android:textSize="16sp"
+    android:padding="@dimen/bd_wallet_menu_item_margin"/><!-- From: file:/C:/Users/hang%20yin/Desktop/dy/phone/android/app/build/intermediates/exploded-aar/com.pingxx/pingpp-bfb-sdk/2.1.11/res/layout/wallet_base_menu_item_view.xml -->

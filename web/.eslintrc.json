@@ -1,0 +1,28 @@
+{
+
+    "env": {
+        "browser": true,  
+        "commonjs": true, 
+        "es6": true, 
+        "jquery": true
+    },
+
+    "extends": "plugin:react/recommended",
+ 
+    "parserOptions": {
+        "ecmaVersion": 8, 
+        "ecmaFeatures": { 
+            "impliedStrict": true, 
+            "experimentalObjectRestSpread": true, 
+            "jsx": true 
+        },
+        "sourceType": "module"
+    },
+ 
+    "plugins": [
+        "react" 
+    ],
+    "rules": {
+
+    }
+}

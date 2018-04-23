@@ -1,0 +1,5 @@
+<resources>
+
+    <string name="app_name">SampleAppMovies</string>
+    <string name="cmbkb_publickey">填写自己的publickey</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<shape xmlns:android="http://schemas.android.com/apk/res/android">    
+    <solid android:color="#FFFFFF" />    
+    <corners android:topLeftRadius="3dp"   
+             android:topRightRadius="3dp"    
+             android:bottomRightRadius="3dp"   
+             android:bottomLeftRadius="3dp"/>    
+</shape> <!-- From: file:/C:/Users/hang%20yin/Desktop/dy/phone/android/app/build/intermediates/exploded-aar/com.pingxx/pingpp-bfb-sdk/2.1.11/res/drawable/wallet_base_corners_bg.xml -->

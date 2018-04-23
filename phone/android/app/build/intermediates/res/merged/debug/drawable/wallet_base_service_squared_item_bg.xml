@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/bd_wallet_text_e4e4e4" android:state_enabled="true" android:state_pressed="true"/>
+</selector><!-- From: file:/C:/Users/hang%20yin/Desktop/dy/phone/android/app/build/intermediates/exploded-aar/com.pingxx/pingpp-bfb-sdk/2.1.11/res/drawable/wallet_base_service_squared_item_bg.xml -->

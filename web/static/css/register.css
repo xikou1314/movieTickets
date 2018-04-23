@@ -1,0 +1,140 @@
+.back-container{
+  border: 1px solid #000;
+  color:#000;
+}
+.back{
+  position:absolute;  
+  top:0;  
+  bottom:0;  
+  left:0;  
+  right:0;  
+  margin:auto;  
+  background: url('../files/img/login/bg.jpg') no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+.form-container{
+  position: absolute;
+  top: 10%;
+  left: 56%;
+  height: 76%;
+  width: 24%;
+  background-color: #fff;
+  padding: 0px 20px 20px 20px;
+}
+.form-container .form-header{
+  color: #000;
+  width: 100%;
+  height: 20%;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.form-container input{
+  display: block;
+  width: 90%;
+  height: 32px;
+  font-size:16px;
+  line-height: 32px;
+  margin-top: 20px;
+  margin-left: 5%;
+  border-radius: 4px;
+  border:1px solid #ccc;
+  padding-left: 8px;
+}
+.register-button,.login-button{
+  margin-top: 20px;
+  color: #fff;
+  background-color: #FD7E02;
+  margin-left: 5%;
+  width: 90%;
+  height: 10%;
+  border: none;
+  outline: none;
+  font-size:16px;
+}
+.register-button:hover,.login-button:hover{
+  opacity: 0.9;
+}
+.register-button:active,.login-button:active
+{
+  color:#FD7E02;
+  background-color: #fff;
+}
+.form-header img{
+  width: 80%;
+  margin-top: 10px;
+}
+.login{
+  color: #E73338;
+}
+.err-container{
+  width: 100%;
+  position: absolute;
+  top:95%;
+}
+.err-msg{
+  padding-top: 4px;
+  margin-top: 20px;
+  color:#666;
+  border: 1px solid #F5D8A7;
+  width: 100%;
+  border-radius: 4px;
+  height: 50px;
+  font-size: 16px;
+  background-color: #FFF6DB;
+}
+.warn-icon{
+  background-image: url('../files/img/icon/ic.png');
+  background-repeat: no-repeat;
+  overflow: hidden;
+  width: 17px;
+  height: 17px;
+  display: inline-block;
+  vertical-align: -3px;
+  background-position: 0 -296px;
+  margin-left: 4px;
+}
+.advert-container{
+  position: absolute;
+  top: 18%;
+  left: 10%;
+  width: 40%;
+  height: 65%;
+}
+.advert-container .icon-container{
+  text-align: center
+}
+.icon-container img{
+  width: 25%;
+}
+.advert{
+  text-align: center;
+}
+.advert h1{
+  margin-top: 20px;
+  font-size: 40px;
+  color:#fff;
+}
+.form-footer{
+  margin-top: 12px;
+  font-size: 16px;
+  margin-left: 16px;
+}
+.login-footer{
+  margin-top: 20px;
+  font-size: 16px;
+  text-align: center;
+  color: #777;
+}
+.login-footer .register{
+  display: inline-block;
+  margin-top: 6px;
+  color:red;
+}
+.login-footer .register:hover{
+  color: #2d98f3;
+}
+.login-form-container{
+  height: 52%;
+  top: 18%;
+}

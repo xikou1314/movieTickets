@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/wallet_base_dashed_shape_press" android:state_pressed="true"/>
+    <item android:drawable="@drawable/wallet_base_dashed_shape_normal"/>
+
+</selector><!-- From: file:/C:/Users/hang%20yin/Desktop/dy/phone/android/app/build/intermediates/exploded-aar/com.pingxx/pingpp-bfb-sdk/2.1.11/res/drawable/wallet_base_dash_btn_selector.xml -->

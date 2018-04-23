@@ -1,0 +1,88 @@
+.container{
+    width: 900px;
+    .seats-container{
+      position: relative;
+      .screen-container{
+        min-width: 550px;
+        position: relative;
+        .screen{
+          width: 550px;
+          padding-top:50px;
+          text-align:center;
+          font-size:16px;
+          color:#666;
+          background: url('../../assets/img/screen.png') no-repeat;
+          background-position-x: center;
+          position: relative;
+          margin-bottom: 40px;
+          top:0;
+          left:0;
+          right: 0;
+          bottom: 0;
+          margin: 0 auto;
+        }
+        .screen-line{
+          width: 0;
+          border-left: 1px dashed #e5e5e5;
+          position: absolute;
+          top:90px;
+          bottom:0;
+          left:50%;
+          height: 100%;
+        }
+      }
+      .seats-wrapper{
+        display: inline-block;
+        min-width: 550px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: 0 auto;
+        margin-top: 110px;
+        .row{
+          white-space: nowrap;
+          margin-bottom: 10px;
+          text-align: center;
+          .seat{
+            display: inline-block;
+            font-size: 0;
+            width:36px;
+            height: 31px;
+            margin: 0 5px;
+            background-position: 0 1px;
+            border: 1px solid #000;
+          }
+          .seat-sale{
+            background: url('../../assets/img/seat_red.png') no-repeat;
+          }
+          .seat-select{
+            background: url('../../assets/img/seat_green.png') no-repeat;
+          }
+        }
+      }
+    }
+    .seats-container::after{
+      content: "";
+      display: block;
+      clear: both;
+    }
+    .row-id-container{
+      width: 20px;
+      float:left;
+      margin-top:112px;
+      white-space: normal;
+      .row-id{
+        font-size:16px;
+        color:#999;
+        margin-left: 40px;
+        margin-bottom: 20px;
+        display: inline-block;
+        width: 20px;
+        height: 26px;
+        line-height: 29px;
+        text-align: center;
+      }
+    }
+}

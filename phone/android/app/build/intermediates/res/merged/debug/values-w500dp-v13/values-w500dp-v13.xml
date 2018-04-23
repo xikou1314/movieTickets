@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/hang%20yin/Desktop/dy/phone/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-w500dp-v13/values-w500dp-v13.xml -->
+    <eat-comment/>
+    <integer name="abc_max_action_buttons">4</integer>
+</resources>

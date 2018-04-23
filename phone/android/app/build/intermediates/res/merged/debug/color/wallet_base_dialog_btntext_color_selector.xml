@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:color="@color/bd_wallet_dialog_btndisable" />
+    <item android:color="@color/bd_wallet_dialog_lineblue" android:state_pressed="true"/>
+    <item android:color="@color/bd_wallet_dialog_lineblue" android:state_pressed="false"/>
+</selector><!-- From: file:/C:/Users/hang%20yin/Desktop/dy/phone/android/app/build/intermediates/exploded-aar/com.pingxx/pingpp-bfb-sdk/2.1.11/res/color/wallet_base_dialog_btntext_color_selector.xml -->

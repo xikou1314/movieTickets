@@ -1,0 +1,110 @@
+.content{
+  border:1px solid transparent;
+  margin-top: 80px;
+  color:#000;
+}
+.left-container img{
+    margin-top: 20px;
+    width: 220px;
+    height: 330px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.content .detail-back{
+  width: 90%;
+  margin-top: 2%;
+  margin-left: 5%;
+  background-color: #fff;
+}
+.left-container{
+  width: 22%;
+}
+.right-container{
+
+  width: 70%;
+  margin-top: 20px;
+}
+.detail-back>div{
+  float: left;
+}
+.clear::after{
+  content: "";
+  display: block;
+  clear: both;
+
+}
+.right-container .info-title{
+  border-bottom: 1px solid #a0a0a0;
+  padding-bottom: 20px;
+}
+.right-container .info-content{
+  margin-top: 20px;
+}
+.info-content ul li{
+  margin-top:10px;
+  font-size: 16px;
+}
+.detail-tabs{
+  margin-left: 5%;
+  margin-right: 5%;
+
+}
+.detail-tabs .ant-tabs-tabpane{
+  background-color: #F4F7FF;
+}
+
+.date-header::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.date-header .date-item{
+  
+  float: left;
+  border:1px solid #BAC2DA;
+  background-color: #E8EDFF;
+  font-size: 20px;
+  width: 10%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.arrange-header span{
+  display: inline-block;
+  width: 25%;
+  text-align: center;
+  font-size: 16px;
+  background-color: #F2F2F2;
+  line-height: 50px;
+}
+.arrangeItem{
+  background-color: #fff;
+  text-align: center;
+}
+.arrangeItem:hover{
+  cursor: pointer;
+}
+.arrangeItem>span{
+  display: inline-block;
+  width: 25%;
+  text-align: center;
+  font-size: 16px;
+  line-height: 50px;
+}
+.date-header .date-item-active{
+  background-color: #889AD4;
+  color: #fff;
+}
+.seat-select{
+  height: 50px;
+  background: #F03D37;
+  color: #fff;
+  border-radius: 20px;
+  display: inline-block;
+  margin: 10px 0px;
+  padding: 0 12px;
+}

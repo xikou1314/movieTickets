@@ -1,0 +1,7 @@
+rootProject.name = 'SampleAppMovies'
+
+include ':app'
+include ':pingpp-react-native'
+project(':pingpp-react-native').projectDir = new File(rootProject.projectDir, '../node_modules/pingpp-react-native/android')
+include ':react-native-vector-icons'
+project(':react-native-vector-icons').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-vector-icons/android')

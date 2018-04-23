@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item  android:drawable="@color/ebpay_list_ffe09f" android:state_enabled="true" android:state_pressed="true"/>
+    <item android:drawable="@color/ebpay_white" android:state_enabled="true" android:state_pressed="false"/>
+    <item android:drawable="@color/ebpay_white" android:state_enabled="false" android:state_pressed="true"/>
+    <item android:drawable="@color/ebpay_white" android:state_enabled="false" android:state_pressed="false"/>
+    <item android:drawable="@color/ebpay_white"/>
+</selector><!-- From: file:/C:/Users/hang%20yin/Desktop/dy/phone/android/app/build/intermediates/exploded-aar/com.pingxx/pingpp-bfb-sdk/2.1.11/res/drawable/ebpay_list_selector.xml -->

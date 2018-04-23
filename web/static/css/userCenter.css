@@ -1,0 +1,112 @@
+.info-container{
+  margin-top: 140px;
+  background-color: #fff;
+}
+.info-container .content{
+  width: 80%;
+  margin-left: 10%;
+  border: 1px solid #ccc;
+  height: 600px;
+}
+.info-container .content>div{
+  float: left;
+}
+.info-container .side-bar{
+  width: 20%;
+  height: 599px;
+  text-align: center;
+  background-color: #F4F3F4;
+  border-right: 1px solid #ccc; 
+  border-bottom: 1px solid #ccc;
+
+}
+.side-bar h1{
+  font-size: 22px;
+  margin: 20px 0;
+}
+.side-bar li{
+  font-size: 16px;
+  padding: 20px 0;
+  cursor: pointer;
+}
+.info-container .info{
+  width: 75%;
+  margin-left: 5%;
+  height: 600px;
+}
+.info h1{
+  font-size: 18px;
+  border-bottom: 1px solid #ccc;
+  padding: 20px 0;
+}
+.user-side-active{
+  background: #ED3931;
+  color: #fff;
+}
+.avatar-container{
+  border:1px solid #ccc;
+  width: 200px;
+  height: 246px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.avatar-container img{
+  width: 100%;
+  height: 100%;
+}
+
+.upload-btn{
+  height: 50px;
+  line-height: 50px;
+  font-size: 18px;
+  border-radius: 4px;
+  background-color: #E6E6E6;
+  color: #5B5B5B;
+}
+.avatar-content{
+  float: left;
+}
+.upload-btn input{
+  cursor: pointer;
+}
+.upload-container{
+  text-align: center;
+  width: 200px;
+  margin-left: 20px;
+  margin-top: 20px;
+ 
+}
+.info-msg{
+  float: left;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.info-msg label{
+  display: inline-block;
+  width: 120px;
+  text-align: right;
+  margin-right: 20px;
+  font-size: 18px;
+}
+.info-msg input{
+  height: 32px;
+}
+.info-msg li{
+  margin-bottom: 20px;
+}
+.submit-button{
+  clear: both;
+  text-align: center;
+}
+.submit-button  button{
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 40px;
+  width: 100px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 48px;
+  border: none;
+  background-color: #ED3931;
+  padding: 0;
+}

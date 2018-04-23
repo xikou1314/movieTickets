@@ -1,0 +1,265 @@
+#header{
+    width: 100%;
+    min-width: 1200px;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 1111;
+    background-color: #fff;
+}
+#header .header-inner{
+    width: 1200px;
+    height: 80px;
+    margin: 0 auto;
+
+}
+#header .header-logo{
+    float: left;
+    width: 133px;
+    height: 80px;
+    background: url("../files/img/header/logo.png") no-repeat 0 50%;
+    background-size: 100%;
+}
+#header .city-container{
+    position: relative;
+    float: left;
+    margin: 0 8px;
+    height: 100%;
+}
+#header .city-container .city-select{
+    cursor: pointer;
+    height: 100%;
+    padding: 0 10px;
+    border: 1px solid transparent;
+    border-width: 0 1px;
+    z-index: 101;
+}
+#header .city-container .city-name{
+    box-sizing: border-box;
+    width: 120px;
+    font-size: 18px;
+    color: #333;
+    line-height: 80px;
+    padding-left: 8px;
+    padding-right: 8px;
+
+
+}
+.localCity{
+    display: inline-block;
+    width: 80px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.selectCityHover{
+    border-left: 1px solid #00A346;
+    border-right: 1px solid #00A346;
+    background: #fff;
+    padding-bottom: 1px;
+
+}
+.caret{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border: 5px solid transparent;
+    border-top: 5px solid #666;
+    margin-left: 2px;
+}
+.selectCityHover :last-child{
+    border: 5px solid transparent;
+    border-bottom: 5px solid #666;
+    margin-left: 2px;
+    position: relative;
+    top: -5px;
+}
+#header .nav{
+    margin-left: 40px;
+    display: inline-block;
+}
+#header .navbar li{
+    float: left;
+}
+#header .navbar a{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 80px;
+    color: #333;
+}
+#header .navbar a:hover{
+    color: #FD7E02;
+}
+#header .navbar a.active{
+    color: #fff;
+    background: #FD7E02;
+}
+#header .user-info{
+    cursor: pointer;
+    display: inline-block;
+    right: 10px;
+    padding: 0 10px;
+    width: 100px;
+    padding-top: 20px;
+    text-align: center;
+    position: absolute;
+    background: #fff;
+    top:0px;
+}
+
+.user-info-slide{
+    display: none;
+    background: #fff;
+}
+.user-info-slide ul{
+    margin-top: 10px;
+}
+.user-info-slide a{
+    font-size: 16px;
+    line-height: 1; 
+    color: #aaa;
+}
+.user-info-slide span{
+    font-size: 20px;
+    color: #000;
+}
+.user-info-slide a:hover{
+    color: #FD7E02;
+}
+.user-info:hover{
+    border: 1px solid #ccc;
+}
+.user-info:hover .user-info-slide{
+    display: block;
+}
+.user-info:hover .caret{
+    border-top: none;
+    border-bottom: 5px solid #666;
+    position: relative;
+    top: -5px;
+    
+}
+
+#header .user-info .user-avatar img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+
+}
+#header .search-form{
+    display: inline-block;
+    float: right;
+    position: relative;
+    margin: 20px 10px 0 0;
+    right: 30px;
+}
+#header .search-form input{
+    box-sizing: border-box;
+}
+#header .search-form .search{
+    display: inline-block;
+    height: 40px;
+    line-height: 1.2;
+    width: 260px;
+    padding: 0px 40px 0px 20px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    border-radius: 30px;
+    background-color: #faf8fa;
+    overflow: hidden;
+    color: #333;
+    outline: none;
+ 
+
+}
+#header .search-form .submit{
+    display: inline-block;
+    position: absolute;
+    left: 220px;
+    top: 0;
+    border: none;
+    height: 40px;
+    width: 40px;
+    background-color: #FD7E02;
+    border-radius: 30px;
+    background-image: url("../files/img/header/search.png");
+    cursor: pointer;
+
+}
+#header .app-download{
+    /* height: 78px; */
+    display: inline-block;
+    margin: 0 0 0 85px;
+
+    padding: 0 10px;
+
+    position: absolute;
+    background: #fff;    
+    
+}
+.app-download div{
+    margin-top: 20px;
+}
+#header .app-download .app-text{
+    /*float: left;*/
+    display: inline-block;
+    font-size: 18px;
+    color: #000;
+    height: 26px;
+    line-height: 26px;
+    margin: 2px 7px;
+}
+.app-download-slide{
+    text-align: center;
+    display: none;
+
+}
+.app-download-slide h4,h6{
+    color: #000;
+
+}
+.app-download:hover .app-download-slide{
+    display: block; 
+}
+.app-download:hover{
+border:1px solid #ccc;
+}
+.app-download:hover .caret{
+    border-top: none;
+    border-bottom: 5px solid #666;
+    position: relative;
+    top: -5px;
+    
+}
+
+/* 登录按钮 下拉 */
+/* .app-download-slide{
+    position: absolute;
+    top: 78px;
+    left: 795px;
+    width: 124px;
+    text-align: center;
+    background-color: #fff;
+    display: none;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.app-download:hover{
+    border: 1px solid #ccc;
+    border-bottom: none;
+}
+
+.app-download:hover~div.app-download-slide{
+    display: block;
+} */
+
+
+
+
+
