@@ -19,6 +19,7 @@ import searchFilm from '../controllers/web/searchFilm';
 import getCaptha from '../controllers/web/getCaptcha';
 import webCharge from '../controllers/web/webCharge';
 import phoneCharge from '../controllers/web/phoneCharge';
+import getCarousel from '../controllers/web/getCarousel';
 
 const router = new Router();
 
@@ -60,7 +61,59 @@ router.post('/phoneCharge',phoneCharge);
 router.get('/films',films);
 router.get('/searchFilm',searchFilm);
 router.get('/getCaptcha',getCaptha);
-router.post('/uploadAvatar', upload.single('files'), async (ctx, next) => {
+router.get('/getCarousel',getCarousel);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+router.post('/up hy6666loadAvatar', upload.single('files'), async (ctx, next) => {
   ctx.body = {  
     code:0,
     fileName: ctx.req.file.filename,                  //返回文件名 

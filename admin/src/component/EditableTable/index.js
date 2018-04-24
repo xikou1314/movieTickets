@@ -215,6 +215,8 @@ class EditableTable extends React.Component {
         dataSource.splice(index, 1);
         this.setState({ dataSource,ids });
         console.log(ids);
+        if(!id)
+        return ;
         request({
             url:`/deleteCarousel?carouselId=${id}`,
             type:"delete"

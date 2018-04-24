@@ -1,12 +1,12 @@
 import React ,{Component,PropTypes} from 'react';
 import Img from '../../../static/files/img/index/banner/banner1.jpg';
 import uuid from 'node-uuid';
+import config from '../../config/index';
 const LIWIDTH=1423;
 var index=0;
 var timer=null;
 function move(size)
 {
-
     if(index==size)
     {
         $('#banner-item').css({left:0});//放到最前面一张
@@ -35,52 +35,50 @@ class Banner extends Component{
     {
         super(props);
         this.state={
-    
+            size:0
 
         };
     };
-
+    componentWillReceiveProps(next){
+        this.setState({
+            size:next.data.length+1
+        });
+        
+        
+    }
 
     componentDidMount(){
-        console.log(this.props);
-        var size=$('#banner-item li').length;
-        $('.indicators li').hover(function(e){
-            var i=$(e.target).index();
-            index=i;
-            $('#banner-item').stop().animate({left:-index*LIWIDTH},500);
-            $(e.target).addClass('active').siblings().removeClass('active');
-        });
             //自动轮播
 
         timer=setInterval(function(){
                 index++;
-                move(size);
+                move(this.state.size);
 
-        },2000);
+        }.bind(this),2000);
 
         //对banner定时器的操作
+
 
         $('#banner').hover(function(){
             clearInterval(timer);
         },function(){
-            timer=setInterval(function(){index++;move(size);},2000);
-        });
+            timer=setInterval(function(){index++;move(this.state.size);}.bind(this),2000);
+        }.bind(this));
 
         //向左的按钮
 
         $('#banner .clk-pre').click(function(){
             index--;
-            move(size);
-        });
+            move(this.state.size);
+        }.bind(this));
 
         //向右按钮
 
         $('#banner .clk-next').click(function(){
             index++;
-            move(size);
-        });
-        
-
+            move(this.state.size);
+        }.bind(this));
+  
 
     };
     componentWillUnmount(){
@@ -89,17 +87,18 @@ class Banner extends Component{
     }
     render(){
 
-        console.log(this.props.data);
         var {data}=this.props;
+        if(data.length<1)
+        return <div>暂无图片</div>;
         data.push(data[0]);
         //图片的个数 图片的宽度
         var bannerCount = data.length;
         var imgs=[];
-        for(var b of data)
+        for(var i=0;i<data.length;i++)
         {
             imgs.push(<li key={uuid.v4()}>
-                <a href={b.href} title={b.title}>
-                    <img src={require('../../../static/files/'+b.img)} alt={'电影-'+b.title}></img>
+                <a href={data[i].href} title={data[i].title}>
+                    <img src={config.baseUrl+data[i].img} alt={'电影-'+data[i].title}></img>
                 </a>
 
             </li>);

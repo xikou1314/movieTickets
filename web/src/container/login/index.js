@@ -34,9 +34,9 @@ class LoginPageContainer extends React.Component{
                 if(res.code===0)
                 {
                     message.success("登录成功");
-                    session.set("userInfo",res.data.user);
-                    session.set("token",res.data.token);
-                    session.set("isLogin",true);
+                    local.set("userInfo",res.data.user);
+                    local.set("token",res.data.token);
+                    local.set("isLogin",true);
                     setTimeout(function(){
                         browserHistory.push('/index');
                     },1000);

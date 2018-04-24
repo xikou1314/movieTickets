@@ -27,7 +27,7 @@ import {sequelize} from '../../model/index';
                 break;
         }
       }
-      await sequelize.query("SELECT * FROM arrange,film,filmroom WHERE arrange.filmId=film.filmId AND arrange.roomId=filmroom.roomId AND "+search.slice(4)+' AND arrange.deletedAt is null AMD film.deletedAt is null').then(res=>{
+      await sequelize.query("SELECT * FROM arrange,film,filmroom WHERE arrange.filmId=film.filmId AND arrange.roomId=filmroom.roomId AND "+search.slice(4)+' AND arrange.deletedAt is null AMD film.deletedAt is null AND filmroom.deletedAt is null').then(res=>{
         console.log(res);
         if(res[0].length>0)
         {
@@ -40,7 +40,7 @@ import {sequelize} from '../../model/index';
       })
      
     }else{
-      await sequelize.query("SELECT * FROM arrange,film,filmroom WHERE arrange.filmId=film.filmId AND arrange.roomId=filmroom.roomId AND arrange.deletedAt is null AND film.deletedAt is null").then(res=>{
+      await sequelize.query("SELECT * FROM arrange,film,filmroom WHERE arrange.filmId=film.filmId AND arrange.roomId=filmroom.roomId AND arrange.deletedAt is null AND film.deletedAt is null AND filmroom.deletedAt is null").then(res=>{
       
         if(res[0].length>0)
         {

@@ -37,7 +37,7 @@ class PayResult extends React.Component{
 
     pay(){
 
-        var data =  session.get("booking",data);
+        var data =  local.get("booking",data);
         console.log(data);
 
         console.log("pay");

@@ -22,7 +22,26 @@ class IndexPageContainer extends React.Component{
     {
         super(props);
         this.state={
-            hotFilms:[]
+            hotFilms:[],
+            banner:[{
+              id:1,
+              href:"",
+              title:"1",
+              img:"img/index/banner/banner1.jpg"
+            },
+            {
+              id:2,
+              href:"",
+              title:"2",
+              img:"img/index/banner/banner2.jpg"
+            },
+            {
+              id:3,
+              href:"",
+              title:"3",
+              img:"img/index/banner/banner3.jpg"
+            },
+        ]
         };
 	  };
 	componentWillMount(){
@@ -34,10 +53,33 @@ class IndexPageContainer extends React.Component{
     // console.log(session.get("userInfo"));
     // console.log(session.get("token"));
     // console.log(session.get("isLogin"));
-        console.log("aaaa");
-        console.log("q");
+    this.getCarousel();
   };
-
+  getCarousel(){
+    request({
+      url:"getCarousel",
+      type:"get",
+    }).then(res=>{
+      console.log("返回结果");
+      console.log(res);
+      var banner = [];
+      for(var i=0;i<res.data.length;i++){
+        banner.push({
+          id:res.data[i].id,
+          href:res.data[i].href,
+          title:res.data[i].title,
+          img:res.data[i].imgUrl
+        })
+      }
+      this.setState({
+        banner
+      });
+      
+    }).catch(err=>{
+      console.log(err);
+      console.log("错误信息");
+    })
+  }
   getHotFilm(){
       request({
         url:"hotfilm",
@@ -95,7 +137,7 @@ class IndexPageContainer extends React.Component{
     <div>
         <Header path={this.props.location.pathname}>
         </Header>
-        <Banner data={data}></Banner>
+        <Banner data={this.state.banner}></Banner>
 
         <div id="content">
               <div id="main">

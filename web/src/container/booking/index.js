@@ -227,102 +227,8 @@ class BookingPageContainer extends React.Component{
             }
         }
     }
-    // getContent(current){
-    //     const {roomInfo}=this.state;
-    //     if(current==0)
-    //     {
-    //         return <div className="out-container">
-    //         <div className="seat-content">
-    //           <div className="header">
-    //               屏幕
-    //           </div>
-    //           <div className="seats">
-    //             {
-    //                 this.initSeats()
-    //             }
-    //           </div>
-    //           <div className="number">
-    //               <ul>
-    //                 {this.initNumber()}
-    //               </ul>
-    //           </div>
-    //           <span className="line" style={{height:this.state.row*36+"px"}}>
-    //           </span>
-    //         </div>
-    //         <div className="msg-content">
-    //           <div className="film-msg">
-    //             <ul>
-    //                 <li>
-    //                     <span className="lable">电影：</span><span className="msg-span">{this.state.filmDetail.filmName}</span>
-    //                 </li>
-    //                 <li>
-    //                     <span className="lable">日期：</span>
-    //                     <span className="msg-span">{
-    //                         roomInfo.date+" "
-    //                     }</span>
-    //                 </li>
-    //                 <li>
-    //                     <span className="lable">时间：</span>
-    //                     <span className="msg-span">{
-    //                       roomInfo.start?roomInfo.start.slice(0,5)+"~"+roomInfo.end.slice(0,5):""
-    //                     }</span>
-    //                 </li>
-    //                 <li>
-    //                   <span className="lable">票数：</span>
-    //                   <span className="msg-span">{this.state.selected.length}</span>
-    //                 </li>
-    //                 <li>
-    //                   <span className="lable">票价：</span>
-    //                   <span className="msg-span">{roomInfo.price} 元/张</span>
-    //                 </li>
-    //                 <li>
-    //                 <span className="lable">总价：</span>
-    //                   <span className="msg-span">{(roomInfo.price*this.state.selected.length).toFixed(2)} 元</span>
-    //                 </li>
-    //                 <li>
-    //                     <div className="seat-line">
-    //                       <span className="lable">座位：</span>
-    //                       <div>
-    //                           {
-    //                               this.state.selected.length>0?this.state.selected.map(value=>{
-    //                                   return <span className="seat-code">{value.seatCode}</span>
-    //                               }):"未选择座位"
-    //                           }
-    //                       </div>
-    //                     </div>
-    //
-    //                 </li>
-    //                 <li>
-    //                     <button className="buy-button" disabled={this.state.selected.length>0?false:true} onClick={this.handleBuy}>确认购买</button>
-    //                 </li>
-    //                 <li>
-    //                     <div className="tip-container">
-    //                       <span className="tip-white"></span><span>未售</span>
-    //                       <span className="tip-red"></span><span>已售</span>
-    //                       <span className="tip-green"></span><span>已选</span>
-    //                     </div>
-    //                 </li>
-    //             </ul>
-    //           </div>
-    //         </div>
-    //       </div>;
-    //     }
-    //     if(current==1)
-    //     {
-    //         return <div>
-    //             <button onClick={this.pay}>付款</button>
-    //         </div>;
-    //     }
-    //     if(current==3)
-    //     {
-    //         return <div>
-    //             <img src={ok}/>
-    //             <p>付款成功,正在跳转您的订单页面...</p>
-    //         </div>
-    //     }
-    // }
     handleBuy(){
-        if(!session.get("isLogin"))
+        if(!local.get("isLogin"))
         {
             this.showConfirm();
             return;
@@ -334,7 +240,6 @@ class BookingPageContainer extends React.Component{
             dataType:"json",
             data:{amount:200}
         }).then(res=>{
-            console.log(res);
             this.setState({
                 charge:res.charge
             });
@@ -352,15 +257,14 @@ class BookingPageContainer extends React.Component{
         var {arrangeId,filmId,roomId}=this.state.roomInfo;
         console.log(this.state.selected);
         var seats=this.state.selected;
-        var userInfo=session.get("userInfo");
+        var userInfo=local.get("userInfo");
         var data={};
         data.arrangeId=arrangeId;
         data.userId=userInfo.userId;
         data.filmId=filmId;
         data.roomId=roomId;
         data.seats=seats;
-        console.log(data);
-        session.set("booking",data);
+        local.set("booking",data);
         pingpp.createPayment(charge, function(result, err){
             if (result == "success") {
                 // 只有微信公众账号 (wx_pub)、QQ 公众号 (qpay_pub)、支付宝口碑 (alipay_qr)
@@ -371,28 +275,6 @@ class BookingPageContainer extends React.Component{
                 // 微信公众账号、QQ 公众号、支付宝口碑支付取消支付
             }
         });
-
-        // console.log("pay");
-        // request({
-        //     url:"pay",
-        //     type:"post",
-        //     dataType:"json",
-        //     data:data
-        // }).then(res=>{
-        //     console.log(res);
-        //     if(res.code==1)
-        //     {
-        //        this.setState({
-        //            current:3
-        //        });
-        //        setTimeout(function(){
-        //         browserHistory.push('/userCenter/2');
-        //        },3000);
-        //
-        //     }
-        // }).catch(err=>{
-        //     message.error("网络错误!请稍后重试...");
-        // })
     }
     render(){
         const {roomInfo}=this.state;

@@ -15,7 +15,7 @@ class Home extends React.Component {
             <PageContainer title='概况'>
                 <div className='wellcome'>
                     <Icon type='smile-o'/>
-                    <h3>antd admin boilerplate</h3>
+                    <h3>暂无消息</h3>
                 </div>
             </PageContainer>
         )

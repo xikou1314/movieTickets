@@ -14,8 +14,8 @@ class Header extends React.Component {
     {
         super(props);
         this.state={
-            userInfo:session.get("userInfo"),
-            isLogin:session.get('isLogin'), 
+            userInfo:local.get("userInfo"),
+            isLogin:local.get('isLogin'), 
             notLogin: <div className="user-info-slide">
                         <Link to="/login">登录</Link><span>/</span>
                         <Link to="/register">注册</Link>
@@ -46,7 +46,7 @@ class Header extends React.Component {
 
     };
     confirm(){
-        session.removeAll();
+        local.removeAll();
         browserHistory.push('/login');
         browserHistory.go(-1);
     }
