@@ -124,6 +124,12 @@ class roleDetail extends React.Component {
         }
         return 0;
     }
+    //跳转到权限列表
+    jumpToList=(e) =>{
+        browserHistory.push(
+            {pathname: '/admin/right/roleList'}
+        );
+    }
     onSubmit= () => {
         this.props.form.validateFields((err, values) => {
             if(err)
@@ -161,6 +167,7 @@ class roleDetail extends React.Component {
                 if(res.code==1)
                 {
                     message.success("角色修改成功");
+                    this.jumpToList();
                 }
                 else{
                     message.error("角色修改失败，请重试...");

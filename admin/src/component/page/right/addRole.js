@@ -5,6 +5,7 @@ import createBreadCrumb from '../../../assets/util/breadCrumb';
 import '../index.less';
 import menuData from "../../../menu";
 import request from '../../../assets/util/request';
+import { browserHistory } from 'react-router';
 const CheckboxGroup = Checkbox.Group;
 const FormItem = Form.Item;
 
@@ -75,6 +76,12 @@ class addRole extends React.Component {
         }
         return 0;
     }
+    //跳转到权限列表
+    jumpToList=(e) =>{
+        browserHistory.push(
+            {pathname: '/admin/right/roleList'}
+        );
+    }
     onSubmit= () => {
         this.props.form.validateFields((err, values) => {
             if(err)
@@ -103,7 +110,6 @@ class addRole extends React.Component {
                 }
 
             }
-            console.log(data);
             request({
                 url:"/newRole",
                 type:"post",
@@ -113,6 +119,7 @@ class addRole extends React.Component {
                 if(res.code==0)
                 {
                     message.success("角色创建成功");
+                    this.jumpToList();
                 }
                 else{
                     message.error("角色创建失败，请重试...");

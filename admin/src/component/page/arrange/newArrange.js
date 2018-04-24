@@ -7,6 +7,7 @@ import SearchDialog from '../../searchDialog';
 import '../../../assets/css/newArrange.less';
 import request from '../../../assets/util/request';
 import moment from 'moment';
+import { browserHistory } from 'react-router';
 import $ from 'jquery';
 const FormItem = Form.Item;
 const {RangePicker } = DatePicker;
@@ -145,6 +146,12 @@ class newArrange extends React.Component {
         })
   
     }
+    //跳转到场次列表
+    jumpToList=(e) =>{
+        browserHistory.push(
+            {pathname: '/admin/arrange/arrangeList'}
+        );
+    }
     showRoomDialog=(e)=>{
         this.setState({
             showRoomDialog:true,
@@ -234,6 +241,7 @@ class newArrange extends React.Component {
                 if(res.code===0)
                 {
                     message.success("创建成功");
+                    this.jumpToList();
                 }
                 else{
                     message.error("网络错误！请稍后重试...");

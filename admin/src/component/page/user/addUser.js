@@ -5,6 +5,7 @@ import createBreadCrumb from '../../../assets/util/breadCrumb';
 import '../index.less';
 import menuData from "../../../menu";
 import request from '../../../assets/util/request';
+import { browserHistory } from 'react-router';
 const CheckboxGroup = Checkbox.Group;
 const FormItem = Form.Item;
 
@@ -65,6 +66,12 @@ class addUser extends React.Component {
     handleReset = () => {
         this.props.form.resetFields();
     }
+    //跳转到用户列表
+    jumpToList=(e) =>{
+        browserHistory.push(
+            {pathname: '/admin/user/userList'}
+        );
+    }
     onSubmit= () => {
         this.props.form.validateFields((err, values) => {
             if(err)
@@ -82,6 +89,7 @@ class addUser extends React.Component {
                 if(res.code==0)
                 {
                     message.success("用户创建成功");
+                    this.jumpToList();
                 }
                 else{
                     message.error("用户创建失败，请重试...");

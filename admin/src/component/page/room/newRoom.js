@@ -11,6 +11,7 @@ import menuData from '../../../menu';
 import createBreadCrumb from '../../../assets/util/breadCrumb';
 import $ from 'jquery';
 import FilmSeatTitle from '../../FilmSeatTitle';
+import { browserHistory } from 'react-router';
 const FormItem = Form.Item;
 
 const createForm = Form.create;
@@ -110,6 +111,12 @@ class NewRoom extends React.Component {
         }
         return flags;
     }
+    //跳转到影厅列表
+    jumpToList=(e) =>{
+        browserHistory.push(
+            {pathname: '/admin/room/roomList'}
+        );
+    }
     handleSubmit=(e)=>{
         e.preventDefault();
         this.props.form.validateFields((err, values) => {
@@ -155,6 +162,7 @@ class NewRoom extends React.Component {
                   if(res.code===1)
                   {
                       message.success(res.msg);
+                      this.jumpToList();
                   }
               }).catch(err=>{
                   message.error("网络错误！请稍后重试！");

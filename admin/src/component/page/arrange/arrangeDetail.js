@@ -143,6 +143,12 @@ class arrangeDetail extends React.Component {
           tempData:{}
         });
     }
+    //跳转到场次列表
+    jumpToList=(e) =>{
+        browserHistory.push(
+            {pathname: '/admin/arrange/arrangeList'}
+        );
+    }
     onSubmit = () => {
         this.props.form.validateFields((err, values) => {
             if(err)
@@ -174,6 +180,7 @@ class arrangeDetail extends React.Component {
                 if(res.code===0)
                 {
                     message.success("修改成功");
+                    this.jumpToList();
                 }
                 else{
                     message.error("网络错误！请稍后重试...");

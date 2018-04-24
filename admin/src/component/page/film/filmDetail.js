@@ -118,6 +118,12 @@ class FilmDetail extends React.Component {
         permission
         });
     }
+    //跳转到电影列表
+    jumpToList=(e) =>{
+        browserHistory.push(
+            {pathname: '/admin/film/filmList'}
+        );
+    }
     onSubmit=()=>{
         this.props.form.validateFields((err, values) => {
             let data = JSON.parse(JSON.stringify(values));
@@ -149,6 +155,7 @@ class FilmDetail extends React.Component {
                 if(res.code===0)
                 {
                     message.success(res.msg,0.5);
+                    this.jumpToList();
                 }
             }).catch(err=>{
                 message.error(err.statusText);

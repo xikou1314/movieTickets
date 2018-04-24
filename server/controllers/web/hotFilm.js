@@ -7,7 +7,7 @@ import { request } from 'http';
       msg:'获取热门电影失败'
   };
   
-  await sequelize.query("SELECT * FROM hotfilm,posterimg,film WHERE hotfilm.filmId=film.filmId AND hotfilm.filmId=posterimg.filmId AND hotfilm.deletedAt is null ORDER BY onTime LIMIT 12").then(result=>{
+  await sequelize.query("SELECT * FROM hotfilm,posterimg,film WHERE hotfilm.filmId=film.filmId AND hotfilm.filmId=posterimg.filmId AND hotfilm.deletedAt is null AND film.deletedAt is null ORDER BY onTime LIMIT 12").then(result=>{
     if(result[0].length>0)
     {
       responseData={

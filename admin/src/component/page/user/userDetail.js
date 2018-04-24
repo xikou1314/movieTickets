@@ -109,6 +109,12 @@ class UserDetail extends React.Component {
     handleBack = () => {
         browserHistory.go(-1);
     }
+    //跳转到用户列表
+    jumpToList=(e) =>{
+        browserHistory.push(
+            {pathname: '/admin/user/userList'}
+        );
+    }
     onSubmit= () => {
         this.props.form.validateFields((err, values) => {
             if(err)
@@ -126,6 +132,7 @@ class UserDetail extends React.Component {
                 if(res.code==1)
                 {
                     message.success("修改用户信息成功");
+                    this.jumpToList();
                 }
                 else{
                     message.error("修改用户信息失败");

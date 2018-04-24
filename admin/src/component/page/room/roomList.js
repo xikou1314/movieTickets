@@ -247,9 +247,9 @@ class RoomList extends React.Component {
                         </Row>
                         <Row>
                         <Col span={24} style={{ textAlign: 'right' }}>
-                            <Button type="primary" htmlType="submit">Search</Button>
+                            <Button type="primary" htmlType="submit">搜索</Button>
                             <Button style={{ marginLeft: 8 }} onClick={this.handleReset}>
-                            Clear
+                            重置
                             </Button>
                         </Col>
                         </Row>

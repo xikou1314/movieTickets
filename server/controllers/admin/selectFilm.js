@@ -48,7 +48,7 @@ import {sequelize} from '../../model/index';
    
     }
     else{
-      await sequelize.query("SELECT * FROM film").then(result=>{
+      await sequelize.query("SELECT * FROM film WHERE deletedAt is null").then(result=>{
         if(result[0].length>0)
         {
           response={

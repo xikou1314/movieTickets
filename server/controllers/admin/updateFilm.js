@@ -51,6 +51,9 @@ import {sequelize} from '../../model/index';
         msg:'电影修改成功'
       };
     });
+    await sequelize.query('UPDATE posterimg SET url=? WHERE filmId =?',{
+      replacements: [filmImgUrl,filmId]
+    })
     //根据电影id 修改对应的数据 
     ctx.body = responseData;
 

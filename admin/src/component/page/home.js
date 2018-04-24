@@ -12,7 +12,7 @@ class Home extends React.Component {
 
     render() {
         return (
-            <PageContainer title='home demo'>
+            <PageContainer title='概况'>
                 <div className='wellcome'>
                     <Icon type='smile-o'/>
                     <h3>antd admin boilerplate</h3>
