@@ -47,8 +47,7 @@ class Header extends React.Component {
     };
     confirm(){
         local.removeAll();
-        browserHistory.push('/login');
-        browserHistory.go(-1);
+        browserHistory.push('/index');
     }
     onSubmit(e){
         console.log("触发了");

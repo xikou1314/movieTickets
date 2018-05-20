@@ -33,7 +33,7 @@ class MovieTabBar extends Component {
 	renderTabOption(tab, i) {
 		let color = this.props.activeTab == i ? "#FEAE37" : "#ADADAD"; // 判断i是否是当前选中的tab，设置不同的颜色
 		return (
-			<TouchableOpacity onPress={()=>this.props.goToPage(i)} style={styles.tab}>
+			<TouchableOpacity key={"tab"+ i} onPress={()=>this.props.goToPage(i)} style={styles.tab}>
 				<View style={styles.tabItem}>
 					<Icon
 						name={this.props.tabIconNames[i]} // 图标

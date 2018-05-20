@@ -67,22 +67,22 @@ export default async (ctx, next) => {
         }
     }
     if (filmId.length > 0 && ctx.request.query.age) {
-        sql += "WHERE film.filmId=posterimg.filmId AND film.filmId in (?) AND onTime between ? and ?";
+        sql += "WHERE film.filmId=posterimg.filmId AND film.filmId in (?) AND onTime between ? and ? AND film.deletedAt is null ";
         params.push(filmId);
         params.push(date1);
         params.push(date2);
     }
     else if (filmId.length > 0) {
-        sql += "WHERE film.filmId=posterimg.filmId AND film.filmId in (?)";
+        sql += "WHERE film.filmId=posterimg.filmId AND film.filmId in (?) AND film.deletedAt is null ";
         params.push(filmId);
     }
     else if (ctx.request.query.age) {
-        sql += "WHERE film.filmId=posterimg.filmId AND onTime between ? and ?";
+        sql += "WHERE film.filmId=posterimg.filmId AND onTime between ? and ? AND film.deletedAt is null ";
         params.push(date1);
         params.push(date2);
     }
     else {
-        sql += "WHERE film.filmId=posterimg.filmId ";
+        sql += "WHERE film.filmId=posterimg.filmId AND film.deletedAt is null ";
     }
     if (filmId.length <= 0 && (ctx.request.query.class || ctx.request.query.area))
     {
